@@ -1,13 +1,4 @@
-#include<stdio.h>
-#include<string.h>
-
-#define MAX_TITLE_SIZE 50
-
-void creat_music_title(FILE* stram);
-
-void read_file(char* file_name);
-
-void write_file(char* file_name);include <string.h>
+#include <string.h>
 #include "../include/textfilewriter.h"
 #include "../include/linkedlist.h"
 
