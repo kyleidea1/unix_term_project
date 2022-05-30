@@ -39,7 +39,7 @@ void print_file(FILE* stream) {
 
     fprintf(stream, "%d\n", count);
 
-    while (temp != _tail) {
+    while (temp != NULL) {
         fprintf(stream, "%s\n", temp->data);
         temp = temp->prev;
     }
